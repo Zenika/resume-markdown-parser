@@ -1,0 +1,33 @@
+{
+  "name": "resume-markdown-parser",
+  "version": "0.0.1",
+  "description": "A markdown parser for Zenika-Resume",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "prettier": "prettier src/**/*.ts",
+    "prettier:check": "npm run prettier -- --check",
+    "prettier:write": "npm run prettier -- --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zenika/resume-markdown-parser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zenika/resume-markdown-parser/issues"
+  },
+  "homepage": "https://github.com/Zenika/resume-markdown-parser#readme",
+  "devDependencies": {
+    "@types/commonmark": "^0.27.4",
+    "@types/node": "^14.0.27",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "commander": "^6.0.0",
+    "commonmark": "^0.29.1"
+  }
+}
